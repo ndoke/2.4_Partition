@@ -1,0 +1,3 @@
+rootProject.name = '2.4_Partition'
+include   ':2.1_RemoveDups'
+project(':2.1_RemoveDups').projectDir = new File(settingsDir, '../2.1_RemoveDups')
